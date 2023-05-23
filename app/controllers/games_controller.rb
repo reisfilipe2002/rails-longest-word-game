@@ -6,8 +6,6 @@ class GamesController < ApplicationController
     while @letters.size != 10
       new_letter = ((('A'..'Z').to_a).sample)
       @letters << new_letter
-
-
     end
   end
 
